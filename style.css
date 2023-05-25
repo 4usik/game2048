@@ -47,8 +47,8 @@ body {
     background-color: hsl(25, 60%, var(--bg-lightness));
     color: hsl(20, 25%, var(--text-lightness));
 
-    transition: 500ms;
-    animation: show 200ms;
+    transition: 300ms;
+    animation: show 100ms;
 }
 
 @keyframes show {
