@@ -21,4 +21,8 @@ export class Tile {
         this.tileElement.style.setProperty("--text-lightness", `${bgLightness < 50 ? 90 : 10}%`);
     }
 
+    removeFromDOM() {
+        this.tileElement.remove();
+    };
+
 }
